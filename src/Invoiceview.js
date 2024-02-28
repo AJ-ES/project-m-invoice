@@ -188,7 +188,7 @@ if (invoice && invoice.invoicedetails) {
   return (
     <div>
       {invoice ? (
-
+<div>
 <div class="container original">
 <p class="copy">
     <b>ORIGINAL COPY</b>
