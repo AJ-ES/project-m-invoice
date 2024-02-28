@@ -75,7 +75,7 @@ if (invoice && invoice.consignmentdetails) {
     // Now you can use totalAmountTax as needed
 } else {
     // Handle the case where invoice or invoice.consignmentdetails is null or undefined
-    console.log("Invoice or consignment details are missing.");
+    //console.log("Invoice or consignment details are missing.");
 }
 
 
@@ -178,7 +178,7 @@ if (invoice && invoice.invoicedetails) {
 
     formattedDateStr = formatDate(originalDate); // Update formattedDateStr within the if block
 } else {
-    console.log("Invoice or invoicedetails are missing.");
+    //console.log("Invoice or invoicedetails are missing.");
 }
 
 // Now you can safely use formattedDateStr outside of the if block
