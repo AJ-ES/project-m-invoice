@@ -7,6 +7,7 @@ import commaNumber from 'comma-number';
 
 function Invoiceview() {
   const [invoice, setInvoice] = useState(null);
+  const [loading, setLoading] = useState(true);
   const { id } = useId(); // Retrieve the invoice ID from context
   const qrCodeValue = `https://project-m-invoice.vercel.app/${id}`;
 
@@ -187,7 +188,9 @@ if (invoice && invoice.invoicedetails) {
 
   return (
     <div>
-      {invoice ? (
+      {loading ? ( // Render loading indicator if loading is true
+        <p>Loading...</p>
+      ) : invoice ? (
 
 
 <div>
@@ -882,6 +885,7 @@ if (invoice && invoice.invoicedetails) {
         // </div> 
         
       ) : (
+        // Render if no invoice found
         <p>No invoice found with the provided ID</p>
       )}
     </div>
