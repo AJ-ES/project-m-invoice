@@ -187,9 +187,7 @@ if (invoice && invoice.invoicedetails) {
 
   return (
     <div>
-    <div>
       {invoice ? (
-<div>
 
 <div class="container original">
 <p class="copy">
@@ -887,6 +885,5 @@ if (invoice && invoice.invoicedetails) {
     </div>
   );
 }
-
 export default Invoiceview;
 
