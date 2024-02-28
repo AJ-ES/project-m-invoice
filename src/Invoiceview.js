@@ -14,14 +14,19 @@ function Invoiceview() {
   const fetchInvoice = async () => {
     try {
       const API = `https://52.66.122.244:8000/`;
+      
+      // Fetch the invoice data by ID
       const response = await axios.get(`${API}invoice/${id}`);
-      setInvoice(response);
+      
+      // Set the invoice data
+      setInvoice(response.data);
     } catch (error) {
       console.error("Error fetching Invoice data:", error);
     }
   };
+  
   fetchInvoice();
-}, [id,API]);
+}, [id]);
 
 
  // Calculate interStateTax based on company pin code and buyer company state code
