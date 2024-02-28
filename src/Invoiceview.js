@@ -878,12 +878,13 @@ if (invoice && invoice.invoicedetails) {
         //   <QRCode value={qrCodeValue} size={256} fgColor="#000" />
         // </div> 
         
-      </div>
-   ) : (
+      ) : (
         <p>No invoice found with the provided ID</p>
       )}
     </div>
   );
 }
+
 export default Invoiceview;
+
 
