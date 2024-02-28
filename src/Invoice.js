@@ -8,8 +8,9 @@ function Invoice() {
   const navigate = useNavigate();
 
   React.useEffect(() => {
-    const newId = id
-    setId(newId);
+    // Decode the id parameter
+    const decodedId = atob(id);
+    setId(decodedId);
     navigate("/invoices");
   }, [id, setId, navigate]);
 
