@@ -534,7 +534,7 @@ if (invoice && invoice.invoicedetails) {
             <div>
                 <p class="alignleft mb-1">
                     <b>BUYER</b> (if other than Consignee)<br />
-                    {invoice.buyerdetails.buyercompanyname} <br />
+                    {invoice.buyerdetails.buyercompanyname.toUpperCase()} <br />
                     {invoice.buyerdetails.buyercompanyaddress}<br />
                     GSTIN/UIN : {invoice.buyerdetails.buyercompanygstno} <br />
                     State Name : {invoice.buyerdetails.buyercompanystatename}, Code : {invoice.buyerdetails.buyercompanystatecode}
@@ -550,7 +550,7 @@ if (invoice && invoice.invoicedetails) {
             <div>
                 <p class="alignright mb-1">
                     <b>Consignee</b> <br />
-                    {invoice.sellerdetails.sellercompanyname} <br />
+                    {invoice.sellerdetails.sellercompanyname.toUpperCase()} <br />
                     {invoice.sellerdetails.sellercompanyaddress}<br />
                     GSTIN/UIN : {invoice.sellerdetails.sellercompanygstno}
                     <br />
