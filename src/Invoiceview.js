@@ -264,7 +264,7 @@ function Invoiceview() {
                 <div class="d-flex">
                   <div class="logo">
                     <img
-                      src="https://github.com/AJ-ES/project-m-client/blob/master/public/logo.jpg"
+                      src="https://github.com/AJ-ES/project-m-client/blob/master/public/logo192.png?raw=true"
                       alt="Logo"
                     />
                     {/* <img src="logo.jpg" alt="Logo" /> */}
@@ -646,7 +646,7 @@ function Invoiceview() {
                 <div class="d-flex">
                   <div class="logo">
                     <img
-                      src="https://github.com/AJ-ES/project-m-client/blob/master/public/logo.jpg"
+                      src="https://github.com/AJ-ES/project-m-client/blob/master/public/logo192.png?raw=true"
                       alt="Logo"
                     />
                     {/* <img src="logo.jpg" alt="Logo" /> */}
