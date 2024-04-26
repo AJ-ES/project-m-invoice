@@ -263,8 +263,11 @@ function Invoiceview() {
               <div class="invoice-header">
                 <div class="d-flex">
                   <div class="logo">
-                    {/* <img src="https://github.com/AJ-ES/project-m-client/blob/master/public/logo.png?raw=true" alt="Logo" /> */}
-                    <img src="logo.jpg" alt="Logo" />
+                    <img
+                      src="https://github.com/AJ-ES/project-m-client/blob/master/public/logo.jpg"
+                      alt="Logo"
+                    />
+                    {/* <img src="logo.jpg" alt="Logo" /> */}
                   </div>
                   <div class="comAddress">
                     <p class="companyname1">
@@ -642,11 +645,11 @@ function Invoiceview() {
               <div class="invoice-header">
                 <div class="d-flex">
                   <div class="logo">
-                    {/* <img
-                      src="https://github.com/AJ-ES/project-m-client/blob/master/public/logo.png?raw=true"
+                    <img
+                      src="https://github.com/AJ-ES/project-m-client/blob/master/public/logo.jpg"
                       alt="Logo"
-                    /> */}
-                    <img src="logo.jpg" alt="Logo" />
+                    />
+                    {/* <img src="logo.jpg" alt="Logo" /> */}
                   </div>
                   <div class="comAddress">
                     <p class="companyname1">
