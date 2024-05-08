@@ -7,7 +7,8 @@ import commaNumber from "comma-number";
 function Invoiceview() {
   const [invoice, setInvoice] = useState(null);
   const { id } = useId(); // Retrieve the invoice ID from context
-  const qrCodeValue = `https://jampot.site/${id}`;
+  const Qrid = btoa(id);
+  const qrCodeValue = `https://jampot.site/${Qrid}`;
 
   useEffect(() => {
     const fetchInvoice = async () => {
