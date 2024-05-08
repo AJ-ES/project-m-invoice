@@ -7,7 +7,7 @@ import commaNumber from "comma-number";
 function Invoiceview() {
   const [invoice, setInvoice] = useState(null);
   const { id } = useId(); // Retrieve the invoice ID from context
-  const qrCodeValue = `https://project-m-invoice.vercel.app/${id}`;
+  const qrCodeValue = `https://jampot.site/${id}`;
 
   useEffect(() => {
     const fetchInvoice = async () => {
